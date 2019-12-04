@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.author       = "Wix.com"
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/softwarehutpl/react-native-swipe-view.git", :tag => "#{spec.version}" }
-  spec.source_files  = "ios/lib"
+  spec.source_files  = "ios/**/*.{h,m}"
   spec.dependency "React"
 end
